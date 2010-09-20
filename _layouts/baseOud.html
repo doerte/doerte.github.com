@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>D&ouml;rte Hessler: {{ page.title }}</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="/default.css" />
+</head>
+<body>
+
+<div id="upbg"></div>
+
+<div id="outer">
+
+
+<div id="header">
+<div id="headercontent">
+<h1>D&ouml;rte Hessler</h1>
+<h2>{{ page.title }}</h2>
+</div>
+</div>
+
+
+<form method="post" action="">
+<div id="search">
+<input type="text" class="text" maxlength="64" name="keywords" />
+<input type="submit" class="submit" value="Search" />
+</div>
+</form>
+
+
+<div id="headerpic"></div>
+
+{% include menu.html %}
+
+<div id="menubottom"></div>
+
+
+<div id="content">
+<div id="normalcontent">
+{{ content }}
+</div>
+</div>
+
+<div id="footer">
+<div class="left">&copy; 2010 D&ouml;rte Hessler. All rights reserved. Hosted by <a href="http://github.com/">Github</a>.</div>
+<div class="right">Design by <a href="http://www.free-css-templates.com/preview/hapal/">Free CSS Templates</a></div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17053071-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

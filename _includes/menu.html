@@ -1,0 +1,17 @@
+<div id="navigation">
+<ul>
+<li><a href="/" id="menuHome">Home</a></li>
+<li><a href="/cv" id="menuCV">CV</a></li>
+<li><a href="/Research" id="menuResearch">Research</a></li>
+<li><a href="/publications" id="menuPUB">Publications</a></li>
+<li><a href="/links" id="menuLinks">Links</a></li>
+<li><a href="/Blog" id="menuBlog">Blog</a></li>
+<li><a href="/contact" id="menuContact">Contact</a></li>
+</ul>
+
+	{% if page.menu %}
+		<script type="text/javascript">
+			document.getElementById("{{page.menu}}").setAttribute("class", "active");
+		</script>
+	{% endif %}
+</div>
