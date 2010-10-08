@@ -16,7 +16,14 @@ Currently I am a PhD-student in Neurolinguistics at the University of Groningen.
    
 If you want to contact me please send a mail to: me (at) doerte (dot) eu     
   
-<h2>Blog</h2>
-You can find my Twitter feed and unregular entries in my [blog](/Blog).
+<h2>Latest Blogposts</h2>
+
+{% for post in site.posts limit:3 %}
+  <div class="post">
+    {{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+	</div>
+{% endfor %}
+
+More entries and my Twitter feed can be found in my [blog](/Blog).
 
 
