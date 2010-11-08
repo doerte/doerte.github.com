@@ -59,6 +59,7 @@ Work Experience
 Lectures
 ---------
 
+- Guest Lecture "European Master in Clinical Linguistics 2010/2011 (teacher: Roelien Bastiaanse)"; Topic: The Influence of Speechreading on Aphasic Comprehension [(pdf)] (emcl2010.pdf)
 - Guest Lecture "Hot topic in Linguistics 2009/2010 (teacher: Laura Bos)"; Topic: "Stoornissen van taalbegrip bij afasie en de invloed van liplezen erop" (Deficits in language perception in aphasia and the influence of lip-reading on it) [(pdf)](ht2010.pdf)
 - Guest Lecture "European Master in Clinical Linguistics 2009/2010 (teacher: Roelien Bastiaanse)"; Topic: The Influence of Lip-Reading on Aphasic Comprehension [(pdf)] (emcl.pdf)
 - Guest Lecture "Onderzoekscollege Neurolinguistiek 2008/2009 (teacher: Roel Jonkers)"; Topic: The McGurk effect in Aphasia
