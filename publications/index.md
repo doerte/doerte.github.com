@@ -10,8 +10,9 @@ Publications & Presentations
 Publications 
 ------------
 Hessler, D., Jonkers, R. & Bastiaanse,
-R. (2010). [The influence of phonetic dimensions on aphasic speech
-perception.](Hessler2010.pdf) 
+R. (2010). 
+<a href="/publications/Hessler2010.pdf" onClick="_gaq.push(['_trackEvent', 'Paper2010', 'Open', 'Paper2010 opened']);">The influence of phonetic dimensions on aphasic speech
+perception.</a>
 *Clinical Linguistics and Phonetics* 24, 980-996.
 
 Hessler, D. & Stadie, N. (2008). War die st&ouml;rungsspezifische
