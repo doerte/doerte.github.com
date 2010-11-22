@@ -24,8 +24,8 @@ Potsdam, 131-134.
 Presentations and Posters
 --------------------------
 
-Hessler, D. (2010). Audiovisuelle Verarbeitung von Phonemen bei
-Aphasie. Invited talk to be given at "4. Herbsttreffen
+Hessler, D. (2010). [Audiovisuelle Verarbeitung von Phonemen bei
+Aphasie.](Herbsttreffen2010.pdf) Invited talk given at "4. Herbsttreffen
 Patholinguistik", Potsdam (Germany).
 
 Hessler, D., Jonkers, R. & Bastiaanse, R. (2010). [Deviant processing
