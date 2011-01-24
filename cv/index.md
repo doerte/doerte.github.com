@@ -15,7 +15,7 @@ Education
 <td style='text-align: left;'>Sept. 2007-present</td>
 <td style='text-align: left;'>PhD-student at the neurolinguistics department at the Rijksuniversiteit Groningen</td></tr>
 <tr> <td></td><td><i>Project:</i> The influence of lip-reading on aphasic comprehension and brain responses</td></tr>
-<tr> <td></td><td><i>Supervisor:</i> Dr. Roel Jonkers</td></tr>
+<tr> <td></td><td><i>Copromotor:</i> Dr. Roel Jonkers</td></tr>
 <tr> <td></td><td><i>Promotor:</i> Prof. Dr. Roelien Bastiaanse</td></tr>
 <tr> <td></td><td><i>Period of appointment:</i> 01.09.2007-31.08.2011</td></tr>
 <tr> <td></td><td><i>Funding:</i> Ubbo Emmius Fellowship</td> 
@@ -70,11 +70,11 @@ Lectures
 Organizational/Administrative Work
 ---------------------------------
 
-- Chair of the PhD Student Council of the Graduate School of Humanities (University of Groningen): since January 2010
+- Chair of the PhD Student Council of the Graduate School of Humanities (University of Groningen): January 2010 until January 2011
 - Chair of the CLCG PhD-student Board & Representative of PhD-students in the CLCG Advisory Council (University of Groningen): since January 2010
 - Member of the CLCG PhD-student Board (University of Groningen): since September 2009
 - Co-organizer of the 30th TABU Dag, an annual linguistic conference in Groningen: June 2009
-- Organization of the CLCG Graduate Student Meeting (University of Groningen): September 2008 and 2009
+- Organization of the CLCG Graduate Student Meeting (University of Groningen): September 2008, 2009 and 2010
 - Secretary of the Neurolinguistics Research Group (University of Groningen): September 2008 until January 2010
 - Webcoordinator of the Neurolinguistics Research Group (University of Groningen): since September 2007  
   
