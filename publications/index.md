@@ -9,6 +9,10 @@ Publications & Presentations
 
 Publications 
 ------------
+
+Hessler, D. (in press). Audiovisuelle Verarbeitung von Phonemen bei
+Aphasie. In Spektrum Patholinguistik (4). Potsdam: Universitätsverlag Potsdam.
+
 Hessler, D., Jonkers, R. & Bastiaanse,
 R. (2010). 
 <a href="/publications/Hessler2010.pdf" onClick="_gaq.push(['_trackEvent', 'Paper2010', 'Open', 'Paper2010 opened']);">The influence of phonetic dimensions on aphasic speech
