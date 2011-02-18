@@ -11,7 +11,7 @@ Publications
 ------------
 
 Hessler, D. (in press). Audiovisuelle Verarbeitung von Phonemen bei
-Aphasie. In Spektrum Patholinguistik (4). Potsdam: Universitätsverlag Potsdam.
+Aphasie. In Hanne, S., Fritzsche, T., Ott, S., Adelt, A. (eds.) *Spektrum Patholinguistik (4)*. Potsdam: Universitätsverlag Potsdam.
 
 Hessler, D., Jonkers, R. & Bastiaanse,
 R. (2010). 
