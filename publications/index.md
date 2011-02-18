@@ -24,9 +24,13 @@ Potsdam, 131-134.
 Presentations and Posters
 --------------------------
 
+Hessler, D., Jonkers, R. & Bastiaanse, R. (2011). [Processing of audiovisual stimuli in aphasic and
+non-brain-damaged listeners](BCN2011.pdf). Poster
+presented at 'BCN New Years Meeting', Groningen (Netherlands).
+
 Hessler, D. (2010). [Audiovisuelle Verarbeitung von Phonemen bei
-Aphasie.](Herbsttreffen2010.pdf) Invited talk given at "4. Herbsttreffen
-Patholinguistik", Potsdam (Germany).
+Aphasie.](Herbsttreffen2010.pdf) Invited talk given at '4. Herbsttreffen
+Patholinguistik', Potsdam (Germany).
 
 Hessler, D., Jonkers, R. & Bastiaanse, R. (2010). [Deviant processing
 of audiovisual stimuli in aphasia.](soa2010.pdf) Talk given at
