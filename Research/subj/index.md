@@ -18,4 +18,4 @@ D&ouml;rte Hessler
 tel. 050-3635970  
 me [at] doerte [dot] eu
 
-Vul nu het [formulier] (vragen) in om benaderd te worden, zodra er weer een onderzoek van start gaat!
+Vul nu het [formulier] (formulier) in om benaderd te worden, zodra er weer een onderzoek van start gaat!
