@@ -81,4 +81,4 @@ Organizational/Administrative Work
 
 
 
-If you are interested in my full CV, please download the [pdf version] (cv.pdf)!
+If you are interested in my full CV, please download the [pdf version] (cvWeb.pdf)!
