@@ -26,5 +26,5 @@ If you want to contact me please send a mail to: me (at) doerte (dot) eu
 
 More entries and my Twitter feed can be found in my [blog](/Blog).
 
-If you like my site, please recommend it: <g:plusone></g:plusone>
+
 
