@@ -10,7 +10,7 @@ Current Project
 
 
 
-The influence of lip-reading on language comprehension and brain responses
+Audiovisual Processing in Aphasic and Non-Brain-Damaged Listeners: The Whole is More than the Sum of its Parts
 --------------------------------------------------------------------------
 
 
