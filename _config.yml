@@ -1,2 +1,3 @@
 lsi: false
 permalink: /Blog/:year/:month/:day/:title
+redirects: yes
