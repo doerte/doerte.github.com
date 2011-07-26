@@ -4,7 +4,7 @@ title: Welcome
 menu: menuHome
 ---
 
-- /research
+- /Research/
 
 
 
