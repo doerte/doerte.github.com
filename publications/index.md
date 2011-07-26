@@ -10,6 +10,11 @@ Publications & Presentations
 Publications 
 ------------
 
+Hessler, D., Jonkers, R. & Bastiaanse,
+R. (in press). Processing of audiovisual
+stimuli in aphasic and non-brain-damaged listeners.
+*Aphasiology*.
+
 Hessler, D. (in press). Audiovisuelle Verarbeitung von Phonemen bei
 Aphasie. In Hanne, S., Fritzsche, T., Ott, S., Adelt, A. (eds.) *Spektrum Patholinguistik (4)*. Potsdam: Universitätsverlag Potsdam.
 
