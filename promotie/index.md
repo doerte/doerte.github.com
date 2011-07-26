@@ -17,7 +17,7 @@ During the day, there will be three events you can attend:
 - [The party](/promotie/party.html)
 
 
-If you would like to have a copy of my dissertation, you can download it [here](/thesis)
+If you would like to have a copy of my dissertation, you can download it [here](/promotie/thesis.html)
 or ask me for a hard copy.
 
 
