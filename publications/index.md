@@ -33,7 +33,7 @@ Potsdam, 131-134.
 Presentations and Posters
 --------------------------
 
-Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). Processing of phonemic contrasts - an ERP study. Talk to be given at `Science of Aphasia XII', Barcelona (Spain). 
+Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). Processing of phonemic contrasts - an ERP study. Talk to be given at 'Science of Aphasia XII', Barcelona (Spain). 
 
 Hessler, D., Jonkers, R., Stowe, L. & Bastiaanse, R. (2011). 
 The psychological reality of phonemic
