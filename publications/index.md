@@ -37,7 +37,7 @@ Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). Processing of pho
 
 Hessler, D., Jonkers, R., Stowe, L. & Bastiaanse, R. (2011). 
 The psychological reality of phonemic
-contrasts. Talk to be given at 'TABU Dag 32', Groningen (The
+contrasts. Talk given at 'TABU Dag 32', Groningen (The
 Netherlands). [(Abstract)](AbTabu2011.pdf)
 
 Hessler, D., Jonkers, R. & Bastiaanse, R. (2011). [Processing of audiovisual stimuli in aphasic and
