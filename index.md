@@ -11,7 +11,7 @@ Welcome...
 [<img alt="D&ouml;rte Hessler" src="images/me_web.png" class="rechts">] (/contact)
 
 ... on my webpage! For now you will find here mainly information about my research:
-Currently I am a PhD-student in Neurolinguistics at the University of Groningen.  Next to a description of the project I am working on now, you can also find information on publications, talks and previous work. Also you might want to have a look at some links I can recommend!
+I recently finished my PhD research in Neurolinguistics at the University of Groningen. Now I work there as a part-time lecturer, teaching Psycholinguistics. Furthermore, I own a small translation company, called [Parolanto](http://parolanto.nl). On this website you can find a description of my PhD project. You can also find information on publications, talks and previous work. Also you might want to have a look at some links I can recommend!
 
    
 If you want to contact me please send a mail to: me (at) doerte (dot) eu     
