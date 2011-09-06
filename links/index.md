@@ -7,6 +7,8 @@ menu: menuLinks
 Links
 =====
 
+[My translation company] (http://parolanto.nl)
+
 [My public profile at LinkedIn] (http://www.linkedin.com/in/doertehessler)
 
 [Pictures at Flickr] (http://flickr.com/doerteh)
