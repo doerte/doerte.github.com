@@ -15,7 +15,7 @@ Current Employment
 <tr>
 <td style='text-align: left;'>Sept. 2011 - present</td>
 <td style='text-align: left;'>Lecturer at the Department of Neurolinguistics, University of Groningen</td></tr>  
-<tr> <td style='text-align: left;'>Aug. 2011 - present</td><td>Self-employed translator at <a href http://parolanto.nl> Parolanto</a></td></tr>
+<tr> <td style='text-align: left;'>Aug. 2011 - present</td><td>Self-employed translator at <a href='http://parolanto.nl'>Parolanto</a></td></tr>
 
 
 
