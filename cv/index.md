@@ -7,17 +7,35 @@ menu: menuCV
 Curriculum Vitae
 ============
 
+
+Current Employment
+------------------
+
+<table><tbody>
+<tr>
+<td style='text-align: left;'>Sept. 2011 - present</td>
+<td style='text-align: left;'>Lecturer at the Department of Neurolinguistics, University of Groningen</td></tr>  
+<tr> <td style='text-align: left;'>Aug. 2011 - present</td><td>Self-employed translator at <a href='http://parolanto.nl'>Parolanto</a></td></tr>
+
+
+
+</tbody></table>
+
+
+
 Education
 ----------
 
 <table><tbody>
 <tr>
-<td style='text-align: left;'>Sept. 2007-present</td>
+<td style='text-align: left;'>Sept. 2007-Sept. 2011</td>
 <td style='text-align: left;'>PhD-student at the neurolinguistics department at the Rijksuniversiteit Groningen</td></tr>
-<tr> <td></td><td><i>Project:</i> The influence of lip-reading on aphasic comprehension and brain responses</td></tr>
+<tr> <td></td><td><i>Project:</i> Audiovisual Processing in Aphasic and
+Non-Brain-Damaged Listeners: The Whole is More than the Sum of its Parts</td></tr>
 <tr> <td></td><td><i>Copromotor:</i> Dr. Roel Jonkers</td></tr>
 <tr> <td></td><td><i>Promotor:</i> Prof. Dr. Roelien Bastiaanse</td></tr>
 <tr> <td></td><td><i>Period of appointment:</i> 01.09.2007-31.08.2011</td></tr>
+<tr> <td></td><td><i>Planned defense:</i> 15.12.2011</td></tr>
 <tr> <td></td><td><i>Funding:</i> Ubbo Emmius Fellowship</td> 
 </tr>
 
