@@ -1,12 +1,10 @@
 ---
 layout: base
-title: Welcome
+title: Welcome ...
 menu: menuHome
+submenu: xyz
 ---
 
-
-Welcome...
------------
 
 [<img alt="D&ouml;rte Hessler" src="images/me_web.png" class="rechts">] (/contact)
 

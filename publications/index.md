@@ -1,11 +1,10 @@
 ---
 layout: base
-title: Publications
-menu: menuPUB
+title: Publications & Presentations
+menu: menuCV
+submenu: pub
 ---
 
-Publications & Presentations
-=====================
 
 Publications 
 ------------

@@ -2,10 +2,8 @@
 layout: base
 title: Curriculum Vitae
 menu: menuCV
+submenu: cv
 ---
-
-Curriculum Vitae
-============
 
 
 Current Employment

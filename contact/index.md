@@ -1,11 +1,10 @@
 ---
 layout: base
-title: Contact
+title: Contact Information
 menu: menuContact
 ---
 
-Contact Information
-===============
+
 
 <table>
 <tbody>

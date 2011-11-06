@@ -1,0 +1,562 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[11pt]{article}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+\usepackage{marvosym}
+\usepackage[nodayofweek]{datetime}
+\usepackage{graphicx}
+
+% Simpler bibsection for CV sections
+% (thanks to natbib for inspiration)
+\makeatletter
+\newlength{\bibhang}
+\setlength{\bibhang}{1em}
+\newlength{\bibsep}
+ {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newenvironment{bibsection}%
+        {\vspace{-\baselineskip}\begin{list}{}{%
+       \setlength{\leftmargin}{\bibhang}%
+       \setlength{\itemindent}{-\leftmargin}%
+       \setlength{\itemsep}{\bibsep}%
+       \setlength{\parsep}{\z@}%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+\makeatother
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+%\usepackage[paper=letterpaper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=1.2in,     % Length of section titles
+%            marginparsep=.05in,       % Space between titles and text
+%            margin=1in,               % 1 inch margins
+%            includemp]{geometry}
+
+% Use these lines for A4-sized paper
+\usepackage[paper=a4paper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=30.5 mm,    % Length of section titles
+            marginparsep=1.5mm,       % Space between titles and text
+            margin=25mm,              % 25mm margins
+            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactitem will be nice.
+\usepackage{paralist}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page} of 4 % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+% (optional argument typesets an object right-justified across from name
+%  as well)
+%
+% Usage: \makeheading{name}
+%        OR
+%        \makeheading[right_object]{name}
+%
+% Place at top of document. It should be the first thing.
+% If ``right_object'' is provided in the square-braced optional
+% argument, it will be right justified on the same line as ``name'' at
+% the top of the CV. For example:
+%
+%       \makeheading[\emph{Curriculum vitae}]{Your Name}
+%
+% will put an emphasized ``Curriculum vitae'' at the top of the document
+% as a title. Likewise, a picture could be included:
+%
+%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
+%
+% the picture will be flush right across from the name.
+\newcommand{\makeheading}[2][]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[3]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{compactitem}[#1]}
+        {\end{compactitem}\vspace{-.6\baselineskip}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%    \TeX}}
+\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    \TeX}}
+\providecommand\Matlab{\textsc{Matlab}}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{fullwidth}{\par\leftskip=-30.5mm \rightskip=0cm}{\par}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\thispagestyle{empty}
+
+
+\makeheading[\emph{Curriculum Vitae}]{D\"{o}rte A. Hessler}
+
+\section{Contact Information}
+%
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{2in}%
+%
+\begin{tabular}[t]{l l}
+
+\textit{E-mail:} & \email{me@doerte.eu}\\
+\textit{WWW:} &\href{http://doerte.eu/}{http://doerte.eu/}\\
+\end{tabular}
+
+
+
+\section{Date and Place of Birth}
+%
+14 October 1981, Cuxhaven, Germany
+
+\section{Citizenship}
+% 
+German
+
+\section{Work Experience}
+%
+
+\textbf{University Lecturer}  \hfill September 2011 to present
+\begin{outerlist}
+	\item[] Department of Neurolinguistics, University of Groningen, The Netherlands
+	\item[] Teaching on Bachelor level in the department of linguistics (0.2 fte)\\
+	
+\end{outerlist}
+
+\textbf{Owner translation agency} \hfill August 2011 to present
+\begin{outerlist}
+	
+	\item[] Translations Dutch-German, interpretations Dutch-German, German-Dutch and corrections of German texts
+	\item[] More information on the company website \href{http://parolanto.nl}
+             {http://parolanto.nl}
+	
+\end{outerlist}
+
+
+\section{Education}
+%
+\textbf{University of Groningen, The Netherlands} \hfill September 2007 to September 2011
+\begin{outerlist}
+\item[]Ph.D.,
+        \href{http://www.let.rug.nl/neurolinguistics/}
+             {Neurolinguistics},
+             planned defense: 15 December 2011
+        \begin{innerlist}
+        \item Thesis Title: \emph{Auditory and Audiovisual Processing in Aphasic and Non-Brain-Damaged Listeners: The Whole is More than the Sum of its Parts}
+        \item Advisors:
+ 		\begin{itemize}             
+                   \item[]Prof. Roelien Bastiaanse (Promotor)
+		\item[]Dr. Roel Jonkers (Co-promotor)
+        		\end{itemize}
+	\item Graduate School: School of Behavioral and Cognitive Neuroscience (BCN), Groningen\\
+        \end{innerlist}
+\end{outerlist}
+
+\textbf{University of Potsdam, Germany}  \hfill  October 2001 to May 2007
+\begin{outerlist}
+
+\item[]Diplom (cum laude),
+        \href{http://www.ling.uni-potsdam.de/patho/index.html}
+             {General Linguistics (Patholinguistics)}, May 2007
+        \begin{innerlist}
+        \item Thesis Topic: \emph{War die st\"{o}rungsspezifische Behandlung der 
+	auditiven Analyse effektiv? Eine Einzelfallstudie bei Aphasie\\ 
+	(Was the specific treatment of the auditory analysis effective? A single case study on aphasia)}
+        \item Adviser: Dr. Nicole Stadie
+        \item Areas of Study: Neuro- and Psycholinguistics\\
+        \end{innerlist}
+\end{outerlist}
+
+\textbf{Highschool education}  \hfill September 1998 to July 2001
+\begin{outerlist}
+
+\item[]Abitur 
+        \begin{innerlist}
+        \item Schulzentrum Geschwister Scholl, Bremerhaven, Germany
+	\item August 1999 to June 2001
+        \end{innerlist}
+
+\item[]Exchange student
+	\begin{innerlist}
+	\item Westwood High School, Fort Pierce, Florida, USA
+	\item September 1998 to July 1999
+	\end{innerlist}
+\end{outerlist}
+
+
+\section{Publications} \begin{bibsection}
+ \item Hessler, D, Jonkers, R. and Bastiaanse, R. (in press). Processing of audiovisual stimuli in aphasic and non-brain-damaged listeners. \emph{Aphasiology}. 
+
+  \item Hessler, D. (in press). Audiovisuelle Verarbeitung von Phonemen bei Aphasie. 
+      In Hanne, S., Fritzsche, T., Ott, S., Adelt, A. (eds.) \emph{Spektrum Patholinguistik} (4). 		          
+	Potsdam: Universitätsverlag Potsdam.
+
+  \item Hessler, D., Jonkers, R. and Bastiaanse, R. (2010). The influence of phonetic dimensions on aphasic speech perception. \emph{Clinical Linguistics and Phonetics} 24, 980-996.
+
+\item Hessler, D. and Stadie, N. (2008). War die st\"{o}rungsspezifische Behandlung der auditiven Analyse effektiv? Eine Einzelfallstudie bei Aphasie. In Wahl, M., Heide, J., Hanne, S. (eds.) \emph{Spektrum Patholinguistik} (1). Potsdam: Universitätsverlag Potsdam, 131-134.
+  
+\end{bibsection}
+
+\section{Submitted\\ for\\ Publication} \begin{bibsection}
+    \item Hessler, D., Jonker, R., Stowe, L. and Bastiaanse, R. (submitted). The whole is more than the sum of its parts -
+audiovisual processing of phonemes investigated with
+ERPs. \emph{Brain and Language}.
+\end{bibsection}
+
+% Add a little space to nudge next ``Conference Publications'' marginpar
+% down to make room for tall ``Submitted Journal Publications''
+% marginpar. If there are enough submitted journal publications, this
+% space will not be needed (and should be removed).
+\vspace{0.1in}
+
+\section{Presentations}
+\begin{bibsection}
+\item Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). Processing of phonemic contrasts - an ERP study. Talk given at `Science of Aphasia XII', Barcelona (Spain). 
+
+\item Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). The psychological reality of phonemic contrasts. Talk given at the `32\textsuperscript{nd} TABU Dag', Groningen (The Netherlands). 
+
+\item Hessler, D., Jonkers, R. and Bastiaanse, R. (2011). Processing of audiovisual stimuli in aphasic and non-brain-damaged listeners. Poster presented at `BCN New Years Meeting', Groningen (Netherlands).
+
+\item Hessler, D. (2010). Audiovisuelle Verarbeitung von Phonemen bei Aphasie. Invited talk given at `4. Herbsttreffen Patholinguistik', Potsdam (Germany).
+
+\item Hessler, D., Jonkers, R. and Bastiaanse, R. (2010). Deviant processing of audiovisual stimuli in aphasia. Talk given at `Science of Aphasia XI', Potsdam (Germany). 
+
+\item Hessler, D., Jonkers, R. and Bastiaanse, R. (2010). Audiovisual processing in aphasic and healthy subjects - differences revealed by reaction times. Talk given at the `31\textsuperscript{st} TABU Dag', Groningen (The Netherlands). 
+
+\item Hessler, D., Jonkers, R. and Bastiaanse, R. (2009).The influence of phonetic features on aphasic speech perception. Talk given at `Science of Aphasia X', Antalya (Turkey). 
+
+\item Hessler, D., Jonkers, R. and Bastiaanse, R. (2009). How aphasic listeners perceive different phonetic features. Poster presented at `The 3\textsuperscript{rd} International Conference on Auditory Cortex', Magdeburg (Germany).
+
+\item Hessler, D. and Stadie, N. (2008). Evaluation of treatment for word sound deafness in aphasia - A single case study. Talk given at `Science of Aphasia IX', Chalkidiki (Greece). 
+
+\item Hessler, D. and Stadie, N. (2007). War die st\"{o}rungsspezifische Behandlung der auditiven Analyse effektiv? Eine Einzelfallstudie bei Aphasie. Poster presented at `1. Herbsttreffen Patholinguistik', Potsdam (Germany).
+
+\item Hessler, D. and Stadie, N. (2006). Hat die st\"{o}rungsspezifische Behandlung der auditiven Analyse gewirkt? Eine Einzelfallstudie bei Aphasie. Poster presented at `GAB Conference', Hamburg (Germany).
+
+\item Hessler, D. and Stadie, N. (2006). Evaluation of a treatment of word sound deafness in an aphasic patient. Talk given at `BAS Therapy Symposium', Plymouth (UK).
+
+\end{bibsection}
+
+
+\section{Teaching Experience}
+\textbf{University of Groningen, The Netherlands}
+    \begin{innerlist}
+        
+        \item Guest lecture for ``European Master in Clinical Linguistics"
+        \begin{innerlist}
+            \item Fall~2009 and Fall~2010
+	  \item Topic: The influence of speechreading on (aphasic) comprehension
+        \end{innerlist}
+
+ 	\halfblankline
+
+        \item Guest lecture ``Hot topics in linguistics''
+        \begin{innerlist}
+            \item Spring~2010
+	   \item Topic:  “Stoornissen van taalbegrip bij afasie en de invloed van liplezen erop” (``Deficits in language perception in aphasia and the influence of lip-reading on them'')
+
+        \end{innerlist}
+
+\halfblankline
+
+        \item Guest Lecture ``Onderzoekscollege Neurolinguistiek''
+
+        \begin{innerlist}
+            \item Spring~2009
+ 	   \item Topic: The McGurk effect in Aphasia
+        \end{innerlist}
+
+        \halfblankline
+
+        \item Guest lecture ``Hot topics in linguistics''
+        \begin{innerlist}
+            \item Spring~2009
+	   \item Topic:  “Luisteren en kijken om te begrijpen - multimodaliteit van taalperceptie” (``Listening and watching to understand - multimodality of speech perception'')
+
+        \end{innerlist}
+
+      \halfblankline
+
+       \item Practicum: Neurolinguistiek I (Aphasiology part)
+        
+	\begin{innerlist}
+            \item Fall 2008 
+            \item Responsible for 4 practicum sessions: Neuroanatomy, History of Aphasia, Paraphasias and Social Impacts of Aphasia
+        \end{innerlist}
+
+  
+
+\end{innerlist}
+
+
+
+
+
+\section{Professional Activities}
+%
+Co-founder and chair of the PhD Student Council of the Graduate School of Humanities (University of Groningen): January 2010 to January 2011\\
+
+Representative of PhD-students in the CLCG Advisory Council (University of Groningen): January 2010 to February 2011\\
+
+Co-organizer of the \href{http://www.let.rug.nl/tabudag/archive/2009/index.php}{30\textsuperscript{th} TABU Dag}, an annual linguistic conference in Groningen: June 2009 \\
+
+Organization of the CLCG Graduate Student Meeting (University of Groningen): September 2008, September 2009 and September 2010\\
+
+Secretary of the Neurolinguistics Research Group (University of Groningen): September 2008 to January 2010\\
+
+Webcoordinator of the Neurolinguistics Research Group (University of Groningen): September 2007 to present
+
+\section{Computer Skills}
+%
+\textbf{Operating systems}
+\begin{innerlist}
+\item Windows 7, Vista, XP, NT, 2000, 98 
+\item MacOS X - basic knowledge
+\item Linux (Debian, Ubuntu)
+\end{innerlist}                                 
+
+\halfblankline
+
+\textbf{Office software and text processing}
+\begin{innerlist}
+\item MS Office 2003-2011 (Windows and Mac editions)
+\item \LaTeX
+\end{innerlist}
+
+\halfblankline
+
+\textbf{Statistics software}
+\begin{innerlist}
+\item SPSS
+\item Statistica
+\item R
+\end{innerlist}
+
+\halfblankline
+
+\textbf{Experimental software}
+\begin{innerlist}
+\item E-Prime
+\item DMDX
+\item Childes/CLAN
+\item Brain Vision Recorder
+\item Brain Vision Analyzer
+\item Matlab - basic knowledge
+\end{innerlist}
+
+\halfblankline
+
+\textbf{Programming languages}
+\begin{innerlist}
+\item Ruby - basic knowledge
+\item Matlab - basic knowledge
+\end{innerlist}
+
+\halfblankline
+
+\textbf{Photo- and videoediting software}
+\begin{innerlist}
+\item Adobe Creative Suite 4 and 5
+\item Adobe Premiere
+\end{innerlist}
+
+\section{Languages}
+%
+\textbf{German}: native language\\
+\textbf{Dutch}: fluent in oral and written modality (Diploma NT2 II)\\
+\textbf{English}: fluent in oral and written modality
+
+\section{Hobbies and interests}
+%
+Singing, indoor soccer, Zumba, reading (novels), acquiring new computer skills (e.g. learning to program)
+\newpage
+
+
+
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------%
+% The following is copyright and licensing information for
+% redistribution of this LaTeX source code; it also includes a liability
+% statement. If this source code is not being redistributed to others,
+% it may be omitted. It has no effect on the function of the above code.
+%----------------------------------------------------------------------%
+% Copyright (c) 2007, 2008, 2009, 2010, 2011 by Theodore P. Pavlic
+%
+% Unless otherwise expressly stated, this work is licensed under the
+% Creative Commons Attribution-Noncommercial 3.0 United States License. To
+% view a copy of this license, visit
+% http://creativecommons.org/licenses/by-nc/3.0/us/ or send a letter to
+% Creative Commons, 171 Second Street, Suite 300, San Francisco,
+% California, 94105, USA.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+%----------------------------------------------------------------------%
