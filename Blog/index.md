@@ -1,10 +1,10 @@
 ---
-layout: home
+layout: blog
 title: Blog
 menu: menuBlog
 ---
 
-<div align="right">Get my Blog-posts as a feed <a href="../atom.xml"><img alt="Get my feed" src="icon.png"></a></div>
+<p><div align="right">Get my Blog-posts as a feed <a href="../atom.xml"><img alt="Get my feed" src="icon.png"></a></div></p>
 
 
 
