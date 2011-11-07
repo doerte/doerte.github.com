@@ -1,4 +1,8 @@
 @charset "utf-8";
+
+
+
+
 html{background: #505050;
 	size:100%;
 	margin: 0 auto;
@@ -71,6 +75,7 @@ h2 {
 	margin:5px 0;
 	color:#595959;
 }
+
 p {
 	margin:8px 0;
 	padding:0 0 8px 0;
@@ -475,3 +480,15 @@ width: 170px;
 padding: 5px;
 margin-right: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,9 @@
 		<title>D&ouml;rte Hessler: {{ page.title }}</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
 		<link rel="stylesheet" type="text/css" href="/default.css" media="screen" />
+		<!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="/ie.css" />
+		<![endif]-->
 		<link href="/atom.xml" rel="alternate" title="doerte.eu/Blog" type="application/atom+xml" />
 		<script type="text/javascript">
   			var _gaq = _gaq || [];
@@ -37,6 +40,8 @@
 				<div class="content_resize">
 					<div class="mainbar">
 						<div class="article">
+							
+
 							{{content}}
 							
 						</div>
@@ -51,7 +56,10 @@
 					<p></p>
 				</div>
 				<div class="col c2">
+					
+					<![if ! IE]>
 					<span><p>If you like this site, please recommend it: <g:plusone size="standard" count="false">></g:plusone></p></span>
+					<![endif]>
 				</div>
 				<div class="clr"></div>
 			</div>
