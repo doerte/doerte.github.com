@@ -1,7 +1,8 @@
 ---
 layout: defense
 title: Layman's talk
-menu: menuPromotie
+menu: menuResearch
+submenu: prom
 ---
 
 In order to inform also friends and family that are not Neurolinguists about my research, I planned a layman's talk in the morning.  
@@ -19,8 +20,9 @@ In order to inform also friends and family that are not Neurolinguists about my 
     </tr>
   </table>
 
-[Back](</promotie) to promotion overview.
+[Back](/promotie) to promotion overview.
  
+
 
 
 

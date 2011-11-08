@@ -2,6 +2,7 @@
 layout: base
 title: Research
 menu: menuResearch
+submenu: research
 ---
 
 I am a PhD-student in Neurolinguistics at the University of Groningen in the Netherlands.

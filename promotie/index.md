@@ -1,7 +1,8 @@
 ---
 layout: base
 title: Promotie
-menu: menuHome
+menu: menuResearch
+submenu: prom
 ---
 
 
