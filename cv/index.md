@@ -11,9 +11,12 @@ Current Employment
 
 <table><tbody>
 <tr>
+<td style='text-align: left;'>Nov. 2011 - present</td>
+<td style='text-align: left;'>Assistant Professor at the Department of Neurolinguistics, University of Groningen</td></tr>  
+<tr>
 <td style='text-align: left;'>Sept. 2011 - present</td>
 <td style='text-align: left;'>Lecturer at the Department of Neurolinguistics, University of Groningen</td></tr>  
-<tr> <td style='text-align: left;'>Aug. 2011 - present</td><td>Self-employed translator at <a href='http://parolanto.nl'>Parolanto</a></td></tr>
+
 
 
 
@@ -33,7 +36,7 @@ Non-Brain-Damaged Listeners: The Whole is More than the Sum of its Parts</td></t
 <tr> <td></td><td><i>Copromotor:</i> Dr. Roel Jonkers</td></tr>
 <tr> <td></td><td><i>Promotor:</i> Prof. Dr. Roelien Bastiaanse</td></tr>
 <tr> <td></td><td><i>Period of appointment:</i> 01.09.2007-31.08.2011</td></tr>
-<tr> <td></td><td><i>Planned defense:</i> 15.12.2011</td></tr>
+<tr> <td></td><td><i>Thesis defense:</i> 15.12.2011</td></tr>
 <tr> <td></td><td><i>Funding:</i> Ubbo Emmius Fellowship</td> 
 </tr>
 
@@ -86,6 +89,7 @@ Lectures
 Organizational/Administrative Work
 ---------------------------------
 
+- Member of the local organization committee of the Science of Aphasia XIII
 - Chair of the PhD Student Council of the Graduate School of Humanities (University of Groningen): January 2010 until January 2011
 - Representative of PhD candidates in the CLCG Advisory Council (University of Groningen): January 2010 until February 2011
 - Co-organizer of the [30th TABU Dag](http://www.let.rug.nl/tabudag/archive/2009/index.php), an annual linguistic conference in Groningen: June 2009
