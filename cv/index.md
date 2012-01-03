@@ -71,12 +71,18 @@ Work Experience
 </tbody></table>
 
 	
+<br>
+Teaching
+---------
+- "Taaltests in de klinische praktijk" (2nd semester, 2011/2012)
+- "Taalverwerking" (part of Psycholinguistics, block 2, 1st semester 2011/2012)
+- Assistance at "Social Media" (block 1, 1st semester, 2011/2012)
 
 
 <br>
-Lectures
+Guest Lectures
 ---------
-
+- Guest Lecture "European Master in Clinical Linguistics 2011/2012 (teacher: Roelien Bastiaanse)"; Topic: Aphasiabank
 - Guest Lecture "European Master in Clinical Linguistics 2010/2011 (teacher: Roelien Bastiaanse)"; Topic: The Influence of Speechreading on Aphasic Comprehension [(pdf)] (emcl2010.pdf)
 - Guest Lecture "Hot topic in Linguistics 2009/2010 (teacher: Laura Bos)"; Topic: "Stoornissen van taalbegrip bij afasie en de invloed van liplezen erop" (Deficits in language perception in aphasia and the influence of lip-reading on it) [(pdf)](ht2010.pdf)
 - Guest Lecture "European Master in Clinical Linguistics 2009/2010 (teacher: Roelien Bastiaanse)"; Topic: The Influence of Lip-Reading on Aphasic Comprehension [(pdf)] (emcl.pdf)
