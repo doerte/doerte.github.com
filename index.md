@@ -10,7 +10,7 @@ submenu: xyz
 
 ... on my webpage! For now you will find here mainly information about my research:
 I recently finished my PhD research in Neurolinguistics at the University of Groningen. Now I work there as an assistant professor.
-My main task is the set-up and coordination of the Center of expertise for language and communication disorder, which is a collaboration of the Faculty of Arts,
+My main task is to set-up and coordinate the Center of Expertise for Language and Communication Disorders, which is a collaboration of the Faculty of Arts,
 the Faculty of Behavioral and Social Sciences and the University Medical Center Groningen. More information about the center will be put here soon.
 Next to the work for the center I also teach in the department of Neurolinguistics. 
 On this website you can find a short description of my PhD project. You can also find information on publications, talks and previous work. Also you might want to have a look at some links I can recommend!
