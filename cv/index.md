@@ -74,7 +74,7 @@ Work Experience
 <br>
 Teaching
 ---------
-- "Taaltests in de klinische linguïstiek" (2nd semester, 2011/2012)
+- "Taaltests in de klinische lingu&iuml;stiek" (2nd semester, 2011/2012)
 - "Taalverwerking" (part of Psycholinguistics, block 2, 1st semester 2011/2012)
 - Assistance at "Social Media" (block 1, 1st semester, 2011/2012)
 
