@@ -5,8 +5,8 @@ menu: menuResearch
 submenu: research
 ---
 
-I am a PhD-student in Neurolinguistics at the University of Groningen in the Netherlands.
-More about my ongoing research here you can find under ['current project'] (/Research/current)!  
+I recently finished my PhD in Neurolinguistics at the University of Groningen in the Netherlands.
+You can find more information about my PhD research under ['current project'] (/Research/current)!  
      
      
 Besides my work on the multimodality of speech comprehension (especially in aphasia) I am also generally interested in research on 

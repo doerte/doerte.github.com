@@ -10,12 +10,12 @@ Publications
 ------------
 
 Hessler, D., Jonkers, R. & Bastiaanse,
-R. (in press). Processing of audiovisual
-stimuli in aphasic and non-brain-damaged listeners.
-*Aphasiology*.
+R. (2012). [Processing of audiovisual
+stimuli in aphasic and non-brain-damaged listeners.](http://www.tandfonline.com/doi/abs/10.1080/02687038.2011.608840)
+*Aphasiology* 26, 83-102.
 
 Hessler, D. (2011). Audiovisuelle Verarbeitung von Phonemen bei
-Aphasie. In Hanne, S., Fritzsche, T., Ott, S., Adelt, A. (eds.) *Spektrum Patholinguistik (4)*. Potsdam: Universitätsverlag Potsdam.
+Aphasie. In Hanne, S., Fritzsche, T., Ott, S., Adelt, A. (eds.) [*Spektrum Patholinguistik (4)*](http://opus.kobv.de/ubp/volltexte/2011/5314/pdf/spath04.pdf). Potsdam: Universitätsverlag Potsdam.
 
 Hessler, D., Jonkers, R. & Bastiaanse,
 R. (2010). 
@@ -32,7 +32,7 @@ Potsdam, 131-134.
 Presentations and Posters
 --------------------------
 
-Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). Processing of phonemic contrasts - an ERP study. Talk to be given at 'Science of Aphasia XII', Barcelona (Spain). 
+Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). Processing of phonemic contrasts - an ERP study. Talk given at 'Science of Aphasia XII', Barcelona (Spain). 
 
 Hessler, D., Jonkers, R., Stowe, L. & Bastiaanse, R. (2011). 
 The psychological reality of phonemic
