@@ -6,7 +6,7 @@ submenu: xyz
 ---
 
 
-[<img alt="D&ouml;rte Hessler" src="images/me_web.png" class="rechts">] (/contact)
+[<img alt="D&ouml;rte de Kok" src="images/me_web.png" class="rechts">] (/contact)
 
 ... on my webpage! For now you will find here mainly information about my research:
 I recently finished my PhD research in Neurolinguistics at the University of Groningen. Now I work there as an assistant professor.

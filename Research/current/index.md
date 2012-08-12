@@ -26,7 +26,7 @@ Finally the main part of this research project is formed by an ERP-experiment th
 	
 ### Participants
 
-D&ouml;rte Hessler  
+D&ouml;rte de Kok (Hessler)  
 Dr. Roel Jonkers  
 Prof. Dr. Roelien Bastiaanse  
 

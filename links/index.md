@@ -20,4 +20,4 @@ Family and Friends
 -----------------
 [Carsten Hessler] (http://carstenhessler.wordpress.com/)
 
-[Dani&euml;l de Kok] (http://danieldk.eu)
+[Dani&euml;l de Kok] (http://danieldk.eu/)
