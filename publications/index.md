@@ -20,7 +20,6 @@ stimuli in aphasic and non-brain-damaged listeners.](http://www.tandfonline.com/
 
 Hessler, D. (2011). [Audiovisual processing in aphasic and non-brain-damaged listeners. The whole is more than the sum of its parts.](http://irs.ub.rug.nl/ppn/338802789) PhD Thesis. 
 
-
 Hessler, D. (2011). Audiovisuelle Verarbeitung von Phonemen bei
 Aphasie. In Hanne, S., Fritzsche, T., Ott, S., Adelt, A. (eds.) [*Spektrum Patholinguistik (4)*](http://opus.kobv.de/ubp/volltexte/2011/5314/pdf/spath04.pdf). Potsdam: Universitätsverlag Potsdam.
 
