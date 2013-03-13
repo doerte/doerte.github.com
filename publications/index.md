@@ -10,8 +10,8 @@ Publications
 ------------
 
 Hessler, D., Jonkers, R., Stowe, L. & Bastiaanse,
-R. (in press). The whole is more than the sum of its parts - audiovisual processing of phonemes investigated with ERPs.
-*Brain and Language*.
+R. (2013). The whole is more than the sum of its parts - audiovisual processing of phonemes investigated with ERPs.
+*Brain and Language* 124 (3), 213-224. [Download preprint](Hessler2013.pdf)
 
 Hessler, D., Jonkers, R. & Bastiaanse,
 R. (2012). [Processing of audiovisual
