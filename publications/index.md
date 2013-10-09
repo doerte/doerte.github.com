@@ -43,6 +43,14 @@ Potsdam, 131-134.
 Presentations and Posters
 --------------------------
 
+De Kok, D., Wolthuis, N. & Bastiaanse, R. (2013). WAT-App: een tool voor het testen van de productie en het begrip van Werkwoorden en Acties bij afasiepati&euml;nten. Talk given at Symposium ehealth4com, Nijmegen (Netherlands).
+
+Arslan, S., de Kok, D. & Bastiaanse, R. (2013). A fragile category: Turkish evidential source
+markers in agrammatism and bilingualism. Talk given at 'Science of Aphasia XIV', Brussels (Belgium).
+
+De Kok, D., Wolthuis, N. & Bastiaanse, R. (2013). VAST-App - testing verbs and sentences with
+the iPad. Poster presented at 'Science of Aphasia XIV', Brussels (Belgium).
+
 Hessler, D., Jonkers, R., Stowe, L. and Bastiaanse, R. (2011). Processing of phonemic contrasts - an ERP study. Talk given at 'Science of Aphasia XII', Barcelona (Spain). 
 
 Hessler, D., Jonkers, R., Stowe, L. & Bastiaanse, R. (2011). 
