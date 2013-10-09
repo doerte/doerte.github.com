@@ -8,6 +8,11 @@ submenu: pub
 
 Publications 
 ------------
+Arslan, S., de Kok, D. & Bastiaanse, R. (2013). A fragile category: Turkish evidential source
+markers in agrammatism and bilingualism. [*Stem-, Spraak- en Taalpathologie* 18 (S01)](http://rjh.ub.rug.nl/sstp/article/view/11250/8753), 116-119.
+
+De Kok, D., Wolthuis, N. & Bastiaanse, R. (2013). VAST-App - testing verbs and sentences with
+the iPad. [*Stem-, Spraak- en Taalpathologie* 18 (S01)](http://rjh.ub.rug.nl/sstp/article/view/11250/8753), 86-89.
 
 Hessler, D., Jonkers, R., Stowe, L. & Bastiaanse,
 R. (2013). The whole is more than the sum of its parts - audiovisual processing of phonemes investigated with ERPs.
