@@ -11,7 +11,7 @@ Current Employment
 
 <table><tbody>
 <tr>
-<td style='text-align: left;'>Dec. 2013 - present</td>
+<td style='text-align: left;' width='25%'>Dec. 2013 - present</td>
 <td style='text-align: left;'>Researcher at the Department of Linguistics, University of T&uuml;bingen, Germany</td></tr>  
 
 </tbody></table>
@@ -23,7 +23,7 @@ Work Experience
 
 <table><tbody>
 <tr>
-<td style='text-align: left;'>Nov. 2011 - Dec. 2013</td>
+<td style='text-align: left;' width='25%'>Nov. 2011 - Dec. 2013</td>
 <td style='text-align: left;'>Assistant Professor at the Department of Neurolinguistics, University of Groningen</td></tr>  
 <tr>
 <td style='text-align: left;'>Sept. 2011 - Aug. 2012</td>
