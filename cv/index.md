@@ -11,14 +11,35 @@ Current Employment
 
 <table><tbody>
 <tr>
-<td style='text-align: left;'>Nov. 2011 - present</td>
+<td style='text-align: left;'>Dec. 2013</td>
+<td style='text-align: left;'>Researcher at the Department of Linguistics, University of TT&uuml;bingenbingen, Germany</td></tr>  
+
+</tbody></table>
+
+<br>
+Work Experience
+-----------------
+
+
+<table><tbody>
+<tr>
+<td style='text-align: left;'>Nov. 2011 - Dec. 2013</td>
 <td style='text-align: left;'>Assistant Professor at the Department of Neurolinguistics, University of Groningen</td></tr>  
 <tr>
-<td style='text-align: left;'>Sept. 2011 - present</td>
+<td style='text-align: left;'>Sept. 2011 - Aug. 2012</td>
 <td style='text-align: left;'>Lecturer at the Department of Neurolinguistics, University of Groningen</td></tr>  
 
+<tr>
+<td style='text-align: left;'>Sept. - Nov. 2004</td>
+<td style='text-align: left;'>Internship Neurologische Rehabilitationsklinik Beelitz-Heilst&auml;tten</td></tr>  
+<tr> <td></td><td>(Clinic for rehabilitation of neurological disorders)</td></tr>
+<tr> <td></td><td>Practical experience as speech therapist for patients with neurological disorders</td></tr>
 
-
+<tr>
+<td style='text-align: left;'>March - May 2005</td>
+<td style='text-align: left;'>Work as a temporary at Neurologische Rehabilitationsklinik Beelitz-Heilst&auml;tten (speech therapy)
+</td></tr>
+<tr> <td></td><td>Practical experience as speech therapist for patients with neurological disorders</td></tr>
 
 </tbody></table>
 
@@ -47,42 +68,20 @@ Non-Brain-Damaged Listeners: The Whole is More than the Sum of its Parts</td></t
 <td style='text-align: left;'>Pre-diploma in Patholinguistics</td>
 </tr>
 </tbody></table>
-
-
-
-<br>
-Work Experience
------------------
-
-
-<table><tbody>
-<tr>
-<td style='text-align: left;'>Sept. - Nov. 2004</td>
-<td style='text-align: left;'>Internship Neurologische Rehabilitationsklinik Beelitz-Heilst&auml;tten</td></tr>  
-<tr> <td></td><td>(Clinic for rehabilitation of neurological disorders)</td></tr>
-<tr> <td></td><td>Practical experience as speech therapist for patients with neurological disorders</td></tr>
-
-<tr>
-<td style='text-align: left;'>March - May 2005</td>
-<td style='text-align: left;'>Work as a temporary at Neurologische Rehabilitationsklinik Beelitz-Heilst&auml;tten (speech therapy)
-</td></tr>
-<tr> <td></td><td>Practical experience as speech therapist for patients with neurological disorders</td></tr>
-
-</tbody></table>
-
 	
 <br>
 Teaching
 ---------
-- "Taaltests in de klinische lingu&iuml;stiek" (2nd semester, 2011/2012)
-- "Taalverwerking" (part of Psycholinguistics, block 2, 1st semester 2011/2012)
-- Assistance at "Social Media" (block 1, 1st semester, 2011/2012)
+- "Taaltests in de klinische lingu&iuml;stiek" (2011/2012, 2012/2013)
+- "Taalverweving" (part of Psycholinguistics, 2012/2013)
+- "Taalverwerking" (part of Psycholinguistics, 2011/2012)
+- Assistance at "Social Media" (2011/2012)
 
 
 <br>
 Guest Lectures
 ---------
-- Guest Lecture "European Master in Clinical Linguistics 2011/2012 (teacher: Roelien Bastiaanse)"; Topic: Aphasiabank
+- Guest Lecture "European Master in Clinical Linguistics 2011/2012, 2012/2013, 2013/2014 (teacher: Roelien Bastiaanse)"; Topic: Aphasiabank
 - Guest Lecture "European Master in Clinical Linguistics 2010/2011 (teacher: Roelien Bastiaanse)"; Topic: The Influence of Speechreading on Aphasic Comprehension [(pdf)] (emcl2010.pdf)
 - Guest Lecture "Hot topic in Linguistics 2009/2010 (teacher: Laura Bos)"; Topic: "Stoornissen van taalbegrip bij afasie en de invloed van liplezen erop" (Deficits in language perception in aphasia and the influence of lip-reading on it) [(pdf)](ht2010.pdf)
 - Guest Lecture "European Master in Clinical Linguistics 2009/2010 (teacher: Roelien Bastiaanse)"; Topic: The Influence of Lip-Reading on Aphasic Comprehension [(pdf)] (emcl.pdf)
@@ -94,6 +93,7 @@ Guest Lectures
 Organizational/Administrative Work
 ---------------------------------
 
+- Webcoordinator of the CLCG Research Institute, March 2012-December 2013
 - Member of the local organization committee of the Science of Aphasia XIII
 - Chair of the PhD Student Council of the Graduate School of Humanities (University of Groningen): January 2010 until January 2011
 - Representative of PhD candidates in the CLCG Advisory Council (University of Groningen): January 2010 until February 2011
@@ -105,7 +105,7 @@ Organizational/Administrative Work
 <br>
 Grants
 -------
-NWO Grant "Open Access Conferenties", december 2011
+NWO Grant "Open Access Conferenties", december 2011 
 
 <br>
 If you are interested in my full CV, please download the [pdf version] (cvWeb.pdf)!
