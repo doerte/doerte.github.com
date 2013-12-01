@@ -11,8 +11,8 @@ Current Employment
 
 <table><tbody>
 <tr>
-<td style='text-align: left;'>Dec. 2013</td>
-<td style='text-align: left;'>Researcher at the Department of Linguistics, University of TT&uuml;bingenbingen, Germany</td></tr>  
+<td style='text-align: left;'>Dec. 2013 - present</td>
+<td style='text-align: left;'>Researcher at the Department of Linguistics, University of T&uuml;bingen, Germany</td></tr>  
 
 </tbody></table>
 
