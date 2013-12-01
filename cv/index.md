@@ -11,7 +11,7 @@ Current Employment
 
 <table width='100%'><tbody>
 <tr>
-<td style='text-align: left;' width='33%'>Dec. 2013 - present</td>
+<td style='text-align: left;' width='25%'>Dec. 2013 - present</td>
 <td style='text-align: left;'>Researcher at the Department of Linguistics, University of T&uuml;bingen, Germany</td></tr>  
 
 </tbody></table>
@@ -23,7 +23,7 @@ Work Experience
 
 <table width='100%'><tbody>
 <tr>
-<td style='text-align: left;' width='33%'>Nov. 2011 - Dec. 2013</td>
+<td style='text-align: left;' width='25%'>Nov. 2011 - Dec. 2013</td>
 <td style='text-align: left;'>Assistant Professor at the Department of Neurolinguistics, University of Groningen</td></tr>  
 <tr>
 <td style='text-align: left;'>Sept. 2011 - Aug. 2012</td>
@@ -50,7 +50,7 @@ Education
 
 <table width='100%'><tbody>
 <tr>
-<td style='text-align: left;'>Sept. 2007-Sept. 2011</td>
+<td style='text-align: left;' width='25%'>Sept. 2007-Sept. 2011</td>
 <td style='text-align: left;'>PhD candidate at the neurolinguistics department at the Rijksuniversiteit Groningen</td></tr>
 <tr> <td></td><td><i>Project:</i> Audiovisual Processing in Aphasic and
 Non-Brain-Damaged Listeners: The Whole is More than the Sum of its Parts</td></tr>
