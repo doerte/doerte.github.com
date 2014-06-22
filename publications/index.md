@@ -29,9 +29,8 @@ Hessler, D. (2011). Audiovisuelle Verarbeitung von Phonemen bei
 Aphasie. In Hanne, S., Fritzsche, T., Ott, S., Adelt, A. (eds.) [*Spektrum Patholinguistik (4)*](http://opus.kobv.de/ubp/volltexte/2011/5314/pdf/spath04.pdf). Potsdam: Universitätsverlag Potsdam.
 
 Hessler, D., Jonkers, R. & Bastiaanse,
-R. (2010). 
-<a href="/publications/Hessler2010.pdf" onClick="_gaq.push(['_trackEvent', 'Paper2010', 'Open', 'Paper2010 opened']);">The influence of phonetic dimensions on aphasic speech
-perception.</a>
+R. (2010). The influence of phonetic dimensions on aphasic speech
+perception](Hessler2010.pdf).
 *Clinical Linguistics and Phonetics* 24, 980-996.
 
 Hessler, D. & Stadie, N. (2008). War die st&ouml;rungsspezifische
