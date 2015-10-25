@@ -17,6 +17,7 @@ Current Employment
 </tbody></table>
 
 <br>
+
 Work Experience
 -----------------
 
@@ -45,6 +46,7 @@ Work Experience
 
 
 <br>
+
 Education
 ----------
 
@@ -70,6 +72,7 @@ Non-Brain-Damaged Listeners: The Whole is More than the Sum of its Parts</td></t
 </tbody></table>
 	
 <br>
+
 Teaching
 ---------
 - "Taaltests in de klinische lingu&iuml;stiek" (2011/2012, 2012/2013)
@@ -79,6 +82,7 @@ Teaching
 
 
 <br>
+
 Guest Lectures
 ---------
 - Guest Lecture "European Master in Clinical Linguistics 2011/2012, 2012/2013, 2013/2014 (teacher: Roelien Bastiaanse)"; Topic: Aphasiabank
@@ -90,6 +94,7 @@ Guest Lectures
 - Aphasiology Practicum "Neurolinguistiek I 2008/2009 (teacher: Roel Jonkers)"; 4 lectures, topics: Neuroanatomy, History of Aphasia, Paraphasias and Social Impacts of Aphasia
 
 <br>
+
 Organizational/Administrative Work
 ---------------------------------
 
@@ -103,6 +108,7 @@ Organizational/Administrative Work
 - Webcoordinator of the Neurolinguistics Research Group (University of Groningen): since September 2007  
   
 <br>
+
 Grants
 -------
 NWO Grant "Open Access Conferenties", december 2011 
